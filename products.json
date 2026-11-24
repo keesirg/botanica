@@ -1,0 +1,22 @@
+[
+  {
+    "id": "lavender-dream-shampoo",
+    "name": "Lavender Dream Shampoo",
+    "mood": "lavender",
+    "type": "shampoo",
+    "size": "450ml",
+    "price": 259,
+    "image": "images/lavender.jpg",
+    "description": "แชมพูสูตรลาเวนเดอร์ ดูแลเส้นผมอย่างอ่อนโยนและผ่อนคลาย ด้วยสารสกัดออร์แกนิกจากลาเวนเดอร์และคาโมมายล์"
+  },
+  {
+    "id": "mint-revive-shampoo",
+    "name": "Mint Revive Shampoo",
+    "mood": "mint",
+    "type": "shampoo",
+    "size": "450ml",
+    "price": 259,
+    "image": "images/mint.jpg",
+    "description": "แชมพูสูตรมินต์ ให้ความสดชื่นแก่หนังศีรษะและบำรุงเส้นผม ด้วยสารสกัดออร์แกนิกจากมินต์และยูคาลิปตัส"
+  }
+]

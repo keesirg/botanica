@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#fcfaf6">
+    <meta name="description" content="Botanica แชมพูสารสกัดออร์แกนิก 2 สูตร Lavender Dream และ Mint Revive ขนาด 450 ml">
+    <title>Botanica — แชมพูสารสกัดออร์แกนิก เลือกสูตรที่ใช่สำหรับคุณ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <a class="logo" href="index.html" aria-label="Botanica หน้าแรก">BOTANICA</a>
+            <nav class="nav" aria-label="เมนูหลัก">
+                <a href="index.html" aria-current="page">หน้าแรก</a>
+                <a href="product.html">สินค้าทั้งหมด</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" style="min-height: calc(100svh - 4.5rem); display: flex; align-items: center;">
+            <div class="container">
+                <div class="hero-copy">
+                    <p class="muted" style="letter-spacing: 0.22em; text-transform: uppercase;">ORGANIC BOTANICAL SHAMPOO</p>
+                    <h1>Botanica<br>แชมพูสารสกัดออร์แกนิก เลือกสูตรที่ใช่สำหรับคุณ</h1>
+                    <span class="rule" aria-hidden="true"></span>
+                    <p class="lead">แชมพู 2 สูตร ขนาด 450 ml ด้วยสารสกัดจากพืช ทั้งสูตรลาเวนเดอร์ที่อ่อนโยนและสูตรมินต์ที่สดชื่น</p>
+                    <a class="btn" href="product.html">ดูสินค้าทั้งหมด</a>
+                </div>
+
+                <div class="hero-media" style="display: grid; grid-template-columns: 1fr 1fr;">
+                    <img src="images/lavender.jpg" alt="แชมพู Lavender Dream ขนาด 450 ml พร้อมช่อลาเวนเดอร์" width="1024" height="1024">
+                    <img src="images/mint.jpg" alt="แชมพู Mint Revive ขนาด 450 ml พร้อมใบมินต์และยูคาลิปตัส" width="1024" height="1024">
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="section-head is-center">
+                    <p class="muted" style="letter-spacing: 0.18em; text-transform: uppercase;">FIND YOUR FORMULA</p>
+                    <h2>วันนี้เส้นผมของคุณอยากได้แบบไหน</h2>
+                    <span class="rule" aria-hidden="true"></span>
+                    <p>เลือกสูตรที่ใช่ แล้วเริ่มต้นการสระผมในแบบของคุณ</p>
+                </div>
+
+                <div class="mood-grid">
+                    <a class="mood-item mood-lavender" data-mood="lavender" href="product.html?mood=lavender" style="display: block; border: 1px solid var(--line-soft); padding: var(--space-3); transition: border-color 0.3s var(--ease);">
+                        <span class="mood-label"><span class="mood-dot"></span>LAVENDER DREAM</span>
+                        <h3>สูตรลาเวนเดอร์</h3>
+                        <span class="mood-rule" aria-hidden="true"></span>
+                        <p>Gentle &amp; Calming Care ดูแลเส้นผมอย่างอ่อนโยน ด้วยสารสกัดออร์แกนิกจากลาเวนเดอร์และคาโมมายล์</p>
+                        <span class="link-line">เลือกสูตรนี้</span>
+                    </a>
+
+                    <a class="mood-item mood-mint" data-mood="mint" href="product.html?mood=mint" style="display: block; border: 1px solid var(--line-soft); padding: var(--space-3); transition: border-color 0.3s var(--ease);">
+                        <span class="mood-label"><span class="mood-dot"></span>MINT REVIVE</span>
+                        <h3>สูตรมินต์</h3>
+                        <span class="mood-rule" aria-hidden="true"></span>
+                        <p>Scalp Refreshing &amp; Nourishing ให้ความสดชื่นแก่หนังศีรษะ ด้วยสารสกัดออร์แกนิกจากมินต์และยูคาลิปตัส</p>
+                        <span class="link-line">เลือกสูตรนี้</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <a class="logo" href="index.html">BOTANICA</a>
+            <p class="mb-0">Botanica — แชมพูสารสกัดออร์แกนิก เลือกสูตรที่ใช่สำหรับคุณ</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
